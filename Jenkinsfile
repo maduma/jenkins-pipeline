@@ -4,6 +4,7 @@ pipeline {
     stage('test') {
       steps {
         sh '''set -x
+ls -l
 env'''
       }
     }

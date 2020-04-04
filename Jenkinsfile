@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('Debug') {
       steps {
-        script {
           echo maduma.name
-        }
       }
     }
   }

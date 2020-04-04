@@ -1,11 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('test') {
+    stage('Debug') {
       steps {
-        sh '''set -x
-ls -l
-env'''
+        echo maduma.name
       }
     }
   }

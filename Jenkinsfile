@@ -1,3 +1,5 @@
+@Library('maduma')
+
 pipeline {
   agent any
   stages {

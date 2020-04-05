@@ -5,7 +5,7 @@ pipeline {
       steps {
           echo maduma.name
           script {
-            print maduma.getClass().getName()
+            print maduma.hashCode()
           }
           sh 'sleep 60'
           echo maduma.name

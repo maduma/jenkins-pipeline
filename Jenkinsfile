@@ -9,6 +9,7 @@ pipeline {
           }
           sh 'sleep 60'
           echo maduma.name
+          sh 'env | sort'
       }
     }
   }

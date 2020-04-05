@@ -4,7 +4,9 @@ pipeline {
     stage('Debug') {
       steps {
           echo maduma.name
-          echo maduma
+          script {
+            print maduma.getClass().getName()
+          }
           sh 'sleep 60'
           echo maduma.name
       }
